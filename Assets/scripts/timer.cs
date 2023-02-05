@@ -7,7 +7,7 @@ public class timer : MonoBehaviour
 {
     public gameover GameOverScript;
     public float currentTime = 0f;
-    float startingTime = 10f;
+    float startingTime = 310f;
 
     
 

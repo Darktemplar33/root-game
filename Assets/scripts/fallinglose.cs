@@ -10,7 +10,7 @@ public class fallinglose : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(transform.position.y < -10.0f){
+		if(transform.position.y < -2.0f){
 		GameOverScript.LoseLevel();
 		}
         
