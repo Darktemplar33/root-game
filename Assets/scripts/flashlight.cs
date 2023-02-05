@@ -22,7 +22,7 @@ public class flashlight : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (isON)
             {
