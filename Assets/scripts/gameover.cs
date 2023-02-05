@@ -19,7 +19,8 @@ public class gameover : MonoBehaviour
 	
 	
 	public void LoseLevel(){
-	if(!gameEnded){
+	if(!gameEnded)
+	{
 		Debug.Log("you lose");
 		gameEnded = true;
 		

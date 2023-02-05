@@ -9,8 +9,8 @@ public class presureplate : MonoBehaviour
 	
 	private void OnTriggerEnter(Collider other)
 	{
-	door.transform.position = new Vector3(0,15,10);
-	plate.transform.position = new Vector3(-1,1,-12);
+	door.transform.position = new Vector3(-1f, 10f, 5f);
+	plate.transform.position = new Vector3(-15.1969995f, 2.65500002f, 7.90600014f);
 	}
 	
 	
@@ -18,8 +18,8 @@ public class presureplate : MonoBehaviour
 	void OnTriggerExit(Collider col)
 	{
 	
-	door.transform.position = new Vector3 (0,6,10);
-	plate.transform.position = new Vector3(-1,2,-12);
+	door.transform.position = new Vector3 (-1f, -1f, 5f);
+	plate.transform.position = new Vector3(-15.1969995f, 2.85500002f, 7.90600014f);
 	
 	}
 	

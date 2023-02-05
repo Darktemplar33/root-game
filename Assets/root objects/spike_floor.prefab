@@ -839,6 +839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4957628526439414963}
+  - component: {fileID: 6770154242406065761}
   m_Layer: 0
   m_Name: spike_floor
   m_TagString: Untagged
@@ -911,6 +912,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
+--- !u!65 &6770154242406065761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844452833389193910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013232805, y: 0.048025347, z: 0.039597962}
+  m_Center: {x: -0.005487307, y: -0.0007576733, z: 0.00046314351}
 --- !u!1 &1911030502141686809
 GameObject:
   m_ObjectHideFlags: 0

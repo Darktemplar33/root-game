@@ -9,7 +9,7 @@ public class timer : MonoBehaviour
     public float currentTime = 0f;
     float startingTime = 10f;
 
-    [SerializeField] Text countdowntext;
+    
 
 
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class timer : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        countdowntext.text = currentTime.ToString("0");
+       
 
         if (currentTime <= 0)
         {

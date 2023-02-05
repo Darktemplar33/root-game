@@ -1586,6 +1586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 767511485035907779}
+  - component: {fileID: 6281127433066320845}
   m_Layer: 0
   m_Name: cieling
   m_TagString: Untagged
@@ -1668,6 +1669,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!65 &6281127433066320845
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146489730679896690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.016323451, y: 0.05618657, z: 0.12064801}
+  m_Center: {x: 0.0019797876, y: -0.0054734237, z: -0.0015424215}
 --- !u!1 &3735637316593349025
 GameObject:
   m_ObjectHideFlags: 0
